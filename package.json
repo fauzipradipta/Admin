@@ -2,7 +2,7 @@
   "name": "admin-input",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "nodemon app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/fauzipradipta/admin-input#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
   }
 }
